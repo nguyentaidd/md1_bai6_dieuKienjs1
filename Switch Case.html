@@ -5,29 +5,30 @@
     <title><Title></title>
 </head>
 <body>
-<!--<select id="trinhduyet" onchange="browser()">-->
-<!--<option style="text-align: center">&#45;&#45;Chọn trình duyệt&#45;&#45;</option>-->
-<!--    <option>Chrome</option>-->
-<!--    <option>Firefox</option>-->
-<!--    <option>Safari</option>-->
-<!--    <option>Opera</option>-->
-<!--</select>-->
-<!--<script>-->
-<!--function browser(){-->
-<!--    let browser = document.getElementById('trinhduyet').value-->
-<!--    switch (browser) {-->
-<!--        case 'Edge':-->
-<!--            alert("You've got the Edge!");-->
-<!--            break;-->
-<!--        case 'Chrome':-->
-<!--        case 'Firefox':-->
-<!--        case 'Safari':-->
-<!--        case 'Opera':-->
-<!--            alert('Okay we support these browsers too');-->
-<!--            break;-->
-<!--    }-->
-<!--}-->
-<!--</script>-->
+<select id="trinhduyet" onchange="browser()">
+<option style="text-align: center">--Chọn trình duyệt--</option>
+    <option>Chrome</option>
+    <option>Firefox</option>
+    <option>Safari</option>
+    <option>Opera</option>
+    <option>Edge</option>
+</select>
+<script>
+function browser(){
+    let browser = document.getElementById('trinhduyet').value
+    switch (browser) {
+        case 'Edge':
+            alert("You've got the Edge!");
+            break;
+        case 'Chrome':
+        case 'Firefox':
+        case 'Safari':
+        case 'Opera':
+            alert('Okay we support these browsers too');
+            break;
+    }
+}
+</script>
 <!--<script>-->
 <!--    let a = prompt('a?', '');-->
 <!--    switch (a) {-->
